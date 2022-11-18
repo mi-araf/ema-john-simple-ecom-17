@@ -1,3 +1,21 @@
 .header img {
     height: 4.7rem;
 }
+.header {
+    text-align: center;
+}
+.header nav {
+    background-color: rgb(29, 28, 28);
+    line-height: 38px;
+    font-size: 1.3rem;
+}
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 20px;
+    padding: 5px 7px;
+}
+nav a:hover {
+    background-color: gray;
+    border-radius: 6px;
+}
