@@ -4,8 +4,9 @@ import Product from '../Product/Product';
 import './Shop.css';
 
 const Shop = () => {
-    const f10 = fakeData.slice(0, 10);
-    const [products, setProducts] = useState(f10);
+    // to show {15} products
+    const f15 = fakeData.slice(0, 15);
+    const [products, setProducts] = useState(f15);
 
     return (
         <div className='shop-container'>
