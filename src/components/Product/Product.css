@@ -6,8 +6,8 @@
 .product {
     display: flex;
     border-bottom: 1px solid rgb(170, 170, 170);
-    margin: 10px;
-    padding: 0 0 6px 0;
+    margin: 10px 35px;
+    padding: 0 0 10px 0;
 }
 .product :nth-child(1) {    /* for image */
     padding: 5px 10px;
@@ -16,4 +16,20 @@
     color: blue;
     font-weight: 500;
     cursor: pointer;
+}
+
+.cart-button {
+    background-color: #f0c14b;
+    cursor: pointer;
+    width: 190px;
+    height: 29px;
+    border: 1px solid #9c7e31 ;
+    border-radius: 5px;
+}
+.cart-button:hover {
+    background-color: #ff932e;
+}
+.cart-button:focus {
+    background-color: #00ffd066;
+    border: 2px solid black;
 }

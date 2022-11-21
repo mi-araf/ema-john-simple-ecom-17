@@ -1,0 +1,13 @@
+.red-alert-color {
+    color: red;
+}
+.cart {
+    font-size: larger;
+}
+
+table tbody tr :nth-child(1) {
+    padding: 5px 0;
+}
+table tbody tr :nth-child(2) {
+    padding-left: 20px;
+}
